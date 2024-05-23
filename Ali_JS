@@ -21,7 +21,7 @@ function mintNFT(name, age, occupation) {
 function listNFTs() {
     for (let i = 0; i < nfts.length; i++) {
         console.log("\nID:" + (i + 1));
-        console.log("\nName: " + nfts[i].name);
+        console.log("Name: " + nfts[i].name);
         console.log("Age: " + nfts[i].age);
         console.log("Occupation: " + nfts[i].occupation);
         console.log("-------------------------");
@@ -39,6 +39,8 @@ function getTotalSupply() {
 mintNFT("Ali", "26", "Civil Engineer");
 mintNFT("Leng", "27", "Architect");
 mintNFT("Alicios", "23", "I.T Specialist");
+mintNFT("Sam", "30", "Graphic Designer");
+mintNFT("Tina", "29", "Data Scientist");
 
 // Listing all NFTs
 listNFTs();
